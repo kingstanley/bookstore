@@ -33,3 +33,5 @@ Limitations
 2. Product quantity is not considered. This means orders don't affect available stock quantity.
 3. Shipping informations are not considered.
 4. No proper user authentication and authorization
+
+Note: The RabbitMQ url in the code is just for test. The data will be probably deleted within a week
