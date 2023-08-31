@@ -27,3 +27,9 @@ End points
   similar with user but has no update end point and delete end point
 
 RabbitMQ is used to implement order queuing in the system.
+
+Limitations
+1. there is no implementation for store management.
+2. Product quantity is not considered. This means orders don't affect available stock quantity.
+3. Shipping informations are not considered.
+4. No proper user authentication and authorization
